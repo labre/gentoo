@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>labre@posteo.de</email>
+    <description>Manuel Ullmann</description>
+  </maintainer>
+  <longdescription>
+    This is intended for jam sessions over the internet targeting low
+    latency audio. Can be used by instrumentalists and choirs.
+    well. Your audio is sent to the server mixed with the audio of
+    your fellow musicians and sent back to you. Requires
+    <pkg>media-sound/jack2</pkg>.
+  </longdescription>
+  <use>
+    <flag name="server">Enable the server component</flag>
+    <flag name="client">Enable the client component</flag>
+  </use>
+</pkgmetadata>
